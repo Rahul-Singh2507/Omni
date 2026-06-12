@@ -6,7 +6,7 @@ import morgan from "morgan";
 import cors from "cors";
 
 const app = express();
-const clientUrl = process.env.CLIENT_URL || "http://localhost:5173";
+const clientUrl = process.env.CLIENT_URL || "https://omni-nu.vercel.app/";
 
 // Middleware
 app.disable("x-powered-by");
